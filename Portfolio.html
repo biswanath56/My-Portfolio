@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My | Portfolio </title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="page-header">
+    <h1>My Portfolio</h1>
+
+    <nav>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-card">
+      <img src="image.png" alt="Profile Picture">
+      <h2>Biswanath Shaw</h2>
+      <p>B.Tech 3rd Year CSE (DS) | Web Developer | Data Scientist | AI Enthusiast</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a Computer Science and Data Science student skilled in 
+      <b>C, C++, Python, Java, Web Development, Data Science, Machine Learning & AI, DevOps, Big Data Analytics</b>.
+      Passionate about creating powerful web apps and solving real-world problems with modern technologies.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div>C</div><div>C++</div><div>Python</div><div>Java</div>
+      <div>JavaScript</div><div>HTML</div><div>CSS</div><div>ReactJS</div>
+      <div>NodeJS</div><div>ExpressJS</div><div>MongoDB</div><div>MySQL</div>
+      <div>Git & GitHub</div><div>Big Data</div><div>Data Science</div>
+      <div>Machine Learning</div><div>AI</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <p>Coming soon: My 3D Web Apps, ML Models, and AI-driven solutions.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>
+      📧 Email: <b>biswanathshaw888@gmail.com</b> <br>
+      🌐 GitHub: <b>github.com/biswanath56</b>
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Biswanath Portfolio | Designed with 💚 Biswanath</p>
+  </footer>
+
+  <script>
+    // Mobile menu
+    const navToggle = document.getElementById("navToggle");
+    const header = document.getElementById("page-header");
+
+    navToggle.onclick = () => {
+      header.classList.toggle("nav-open");
+    };
+  </script>
+
+</body>
+</html>
+
